@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -12,21 +13,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Project">
+        android:theme="@style/Theme.Project"
+        android:usesCleartextTraffic="true">
         <activity
-            android:name=".Home.activities.FilterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Home.activities.DetailActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Home.activities.BookingActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Home.activities.SearchActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Home.activities.HomeActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
