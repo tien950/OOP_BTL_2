@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CircleOverlay">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+        <!-- Style cho các chip màu xám nhạt -->
+    <style name="ChipGrey">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_chip_grey</item>
+        <item name="android:textColor">#334155</item> <!-- Màu chữ xám đậm -->
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:paddingVertical">8dp</item>
+    </style>
+
+    <!-- Style cho text bottom navigation khi được chọn -->
+    <style name="BottomNavigationActiveText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style cho text bottom navigation khi không được chọn -->
+    <style name="BottomNavigationInactiveText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Style cho mốc thời gian -->
+    <style name="TimeHeader">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!-- Style cho tên sân -->
+    <style name="CourtName">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/sky_400</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!-- Style cơ bản cho TimeSlot -->
+    <style name="TimeSlot">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:background">@drawable/time_border</item>
+    </style>
+
+    <!-- Style cho slot trống -->
+    <style name="TimeSlot.Available">
+        <item name="android:background">@drawable/time_border</item>
+    </style>
+
+    <!-- Style cho slot đã đặt -->
+    <style name="TimeSlot.Booked">
+        <item name="android:background">@drawable/time_border</item>
+    </style>
+
+    <!-- Style cho slot khóa -->
+    <style name="TimeSlot.Locked">
+        <item name="android:background">@drawable/time_border</item>
+    </style>
+
+    <!-- Style cho slot sự kiện -->
+    <style name="TimeSlot.Event">
+        <item name="android:background">@drawable/time_border</item>
+    </style>
+
+    <!-- Style cho chú thích trạng thái -->
+    <style name="LegendItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingHorizontal">8dp</item>
+        <item name="android:paddingVertical">4dp</item>
+    </style>
+
+    <!-- Style cho các hàng thông tin trong Detail Activity -->
+    <style name="InfoRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Style cho icon thông tin -->
+    <style name="InfoIcon">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:tint">@color/colorPrimary</item>
+    </style>
+
+    <!-- Style cho text thông tin -->
+    <style name="InfoText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Bottom Sheet Activity Theme -->
+    <style name="Theme.BottomSheetActivity" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <!-- Style cho TabLayout Text -->
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="sky_50">#F9FAFE</color>
+    <color name="sky_100">#ECF0FD</color>
+    <color name="sky_200">#FFD8E2FF</color>
+    <color name="sky_300">#D1DBF6</color>
+    <color name="sky_400">#FF123E62</color>  <!-- Primary -->
+    <color name="ink_900">#3D4959</color>  <!-- Text đậm -->
+    <color name="court_name_bg_blue">#EFF3FF</color>
+
+    <!-- Semantic -->
+    <color name="colorPrimary">@color/sky_400</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorBackground">@color/white</color>
+    <color name="colorSurface">@color/sky_50</color>
+    <color name="colorBorder">@color/sky_300</color>
+    <color name="colorText">@color/ink_900</color>
+
+<!--    Booking-->
+    <color name="slot_available">@color/sky_100</color>
+    <color name="slot_booked">#DC2626</color>
+    <color name="slot_locked">#6B7280</color>
+    <color name="slot_event">#A855F7</color>
+</resources>

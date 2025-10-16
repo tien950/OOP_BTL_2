@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:background="@android:color/white">
+
+<!--    &lt;!&ndash; Dãy icon các môn thể thao &ndash;&gt;-->
+<!--    <HorizontalScrollView-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:scrollbars="none">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:paddingHorizontal="10dp">-->
+
+<!--            &lt;!&ndash; Item 1: Pickleball &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:background="@drawable/bg_category_icon"-->
+<!--                    android:src="@drawable/ic_pickleball" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:text="Pickleball"-->
+<!--                    android:textSize="12sp" />-->
+<!--            </LinearLayout>-->
+
+<!--            &lt;!&ndash; Item 2: Cầu lông &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:background="@drawable/bg_category_icon"-->
+<!--                    android:src="@drawable/ic_badminton" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:text="Cầu lông"-->
+<!--                    android:textSize="12sp" />-->
+<!--            </LinearLayout>-->
+
+<!--            &lt;!&ndash; Item 3: Bóng đá &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:background="@drawable/bg_category_icon"-->
+<!--                    android:src="@drawable/ic_football" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:text="Bóng đá"-->
+<!--                    android:textSize="12sp" />-->
+<!--            </LinearLayout>-->
+
+<!--            &lt;!&ndash; Item 4: Tenis &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:background="@drawable/bg_category_icon"-->
+<!--                    android:src="@drawable/ic_tenis" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:text="Tenis"-->
+<!--                    android:textSize="12sp" />-->
+<!--            </LinearLayout>-->
+
+<!--            &lt;!&ndash; Item 5: Bóng chuyền &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:background="@drawable/bg_category_icon"-->
+<!--                    android:src="@drawable/ic_voleyball" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:text="B.Chuyền"-->
+<!--                    android:textSize="12sp" />-->
+<!--            </LinearLayout>-->
+
+<!--            &lt;!&ndash; Item 6: Bóng rổ &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:background="@drawable/bg_category_icon"-->
+<!--                    android:src="@drawable/ic_basketball" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:text="Bóng rổ"-->
+<!--                    android:textSize="12sp" />-->
+<!--            </LinearLayout>-->
+
+<!--            &lt;!&ndash; Item 7: Golf &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:background="@drawable/bg_category_icon"-->
+<!--                    android:src="@drawable/ic_golf" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:text="Golf"-->
+<!--                    android:textSize="12sp" />-->
+<!--            </LinearLayout>-->
+
+<!--            &lt;!&ndash; Item 8: Phức hợp &ndash;&gt;-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:background="@drawable/bg_category_icon"-->
+<!--                    android:src="@drawable/ic_sports" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:text="Phức hợp"-->
+<!--                    android:textSize="12sp" />-->
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+<!--    </HorizontalScrollView>-->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="0dp"
+        app:cardBackgroundColor="#E0F2F1"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp">
+
+            <ImageView
+                android:id="@+id/iv_globe_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_globe" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/iv_globe_icon"
+                android:layout_marginStart="8dp"
+                android:text="Tìm sân trống, sự kiện xé vé, ghép đội"
+                android:textColor="#D97706"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_filter" />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
